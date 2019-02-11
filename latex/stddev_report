@@ -1,0 +1,18 @@
+\documentclass[12 pt] {article} 
+\usepackage[latin1]{inputenc}  
+\usepackage{amsmath}  
+\usepackage{amsfonts}  
+\usepackage{amssymb}  
+\usepackage{makeidx}  
+\usepackage{graphicx}  
+
+\title{CS 3560 HW3 - Standard Deviation Report}
+\date{2/11/19}
+\author{Payton Kennedy}
+
+\begin{document}
+\maketitle
+
+$s=\sqrt{\frac{1}{N-1}\sum_{i=1}^N(x_i-\bar{x})^2}$. This is the equation for standard deviation of a data set where $s$ is the variable for standard deviation, $N$ is the number of values in the set, $x_i$ is the $i$th element is the set, and $\overline{x}$ is the average of the data set. Standard deviation is basically the measurement of the spread of the data and is very useful in comparing data sets that have the same average but different ranges.
+
+\end{document}
